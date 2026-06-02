@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #102a43;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(16, 42, 67, 0.85) 0%, rgba(185, 28, 28, 0.7) 100%);
+}
